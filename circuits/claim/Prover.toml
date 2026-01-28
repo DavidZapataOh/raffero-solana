@@ -1,0 +1,23 @@
+# PRIVATE INPUTS
+secret = "123"
+nullifier = "456"
+recipient = "789"
+
+# Merkle proof path (20 levels max, padded with zeros)
+siblings = ["12345", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]
+
+# Path indices: 0 = left, 1 = right at each level
+path_indices = ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"]
+
+# PUBLIC INPUTS
+# NOTE: These placeholder values will cause the circuit to fail!
+# You need to compute valid values from actual tree data:
+# - root: hash of the Merkle tree root
+# - nullifier_hash: hash2(nullifier, raffle_id)
+# - recipient_binding: hash2(nullifier_hash, recipient)
+root = "0"
+nullifier_hash = "6717609415510369431648265157427190921578662879631220533561778315995839230701"
+recipient_binding = "0"
+raffle_id = "1"
+winner_index = "0"
+tree_depth = "2"

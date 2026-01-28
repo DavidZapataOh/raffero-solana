@@ -1,0 +1,19 @@
+{
+    "name": "@raffero-solana/claim-client",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "verify": "tsx verify.ts"
+    },
+    "dependencies": {
+        "@solana-noir-examples/lib": "file:../../../lib",
+        "@solana/kit": "^5.1.0",
+        "dotenv": "^17.2.3",
+        "ws": "^8.18.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.10.2",
+        "tsx": "^4.19.0",
+        "typescript": "^5.6.0"
+    }
+}

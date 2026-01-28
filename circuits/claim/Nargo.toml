@@ -1,5 +1,5 @@
 [package]
-name = "raffle_circuits"
+name = "claim"
 type = "bin"
 authors = [""]
 
