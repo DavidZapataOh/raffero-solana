@@ -6,14 +6,16 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-raffero = "E1UPv6KVgDWzmphNNvyKt9bRkPZ7qS7BbS7A8UnwpPFk"
+raffero = "BBmLcKphet33PchsFR4NHSmAgwBxtSrTcBsPLG6Sxm1P"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 \"tests/**/*.ts\""
+
+[hooks]
